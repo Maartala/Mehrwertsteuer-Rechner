@@ -17,15 +17,33 @@ html {
     width: 40vw;
     font-weight: 300;
     padding: 3%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     box-shadow: 1px 1px 13px 1px rgba(8, 17, 59, 0.63);
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 3.5rem;
+    font-weight: 600;
     text-align: center;
     padding-bottom: 5%;
 }
+
+h2 {
+    text-align: center;
+    padding: 3% 0 1% 0;
+}
+
+.flex_select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_select_satz {
+    padding: 0 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 
 .container_form {}

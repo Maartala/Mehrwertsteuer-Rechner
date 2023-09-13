@@ -17,17 +17,29 @@
             <form class="container_form" action="#" onsubmit="return false">
                 <div>
                     <h2 for="">Was soll berechnet werden?</h2>
-                    <input type="radio" name="radio1" id="MwSt+" onchange="text()">
-                    <label for="">Mehrwertsteuer aufschlagen (Netto zu Brutto)</label>
-                    <input type="radio" name="radio1" id="MwSt-" onchange="text()">
-                    <label for="">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
+                    <article class="flex_select">
+                        <div>
+                            <label for="">Mehrwertsteuer aufschlagen (Netto zu Brutto)</label>
+                            <input type="radio" name="radio1" id="MwSt+" onchange="text()">
+                        </div>
+                        <div>
+                            <input type="radio" name="radio1" id="MwSt-" onchange="text()">
+                            <label for="">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
+                        </div>
+                    </article>
                 </div>
                 <div>
                     <h2 for="">Mehrwertsteuersatz</h2>
-                    <input type="radio" name="radio2" id="satz_19">
-                    <label for="">19%</label>
-                    <input type="radio" name="radio2" id="satz_7">
-                    <label for="">7%</label>
+                    <article class="flex_select_satz">
+                        <div>
+                            <label for="">19%</label>
+                            <input type="radio" name="radio2" id="satz_19">
+                        </div>
+                        <div>
+                            <input type="radio" name="radio2" id="satz_7">
+                            <label for="">7%</label>
+                        </div>
+                    </article>
                 </div>
                 <div>
                     <h2 id="txt_MwSt"></h2>
