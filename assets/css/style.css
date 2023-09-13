@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(to bottom, #5a6894, #53608c, #4c5883, #45507b, #3e4873);
+    color: #ffffff;
+    margin: 10rem auto;
+    border-radius: 10px;
+    width: 40vw;
+    font-weight: 300;
+    padding: 3%;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 13px 1px rgba(8, 17, 59, 0.63);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.container_form {}
