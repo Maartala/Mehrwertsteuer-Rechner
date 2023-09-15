@@ -38,10 +38,18 @@ h2 {
     justify-content: space-between;
 }
 
+.flex_select input {
+    width: 14px
+}
+
 .flex_select_satz {
     padding: 0 40%;
     display: flex;
     justify-content: space-between;
+}
+
+.flex_select_satz div input {
+    font-size: 30px;
 
 }
 
