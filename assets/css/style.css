@@ -12,9 +12,9 @@ html {
 .container {
     background-image: linear-gradient(to bottom, #5a6894, #53608c, #4c5883, #45507b, #3e4873);
     color: #ffffff;
-    margin: 10rem auto;
+    margin: 2% auto;
     border-radius: 10px;
-    width: 40vw;
+    max-width: 400px;
     font-weight: 300;
     padding: 3%;
     font-size: 1.3rem;
