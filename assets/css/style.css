@@ -15,8 +15,9 @@ html {
     margin: 2% auto;
     border-radius: 10px;
     max-width: 400px;
+    min-width: 200px;
     font-weight: 300;
-    padding: 3%;
+    padding: 5rem;
     font-size: 1.3rem;
     box-shadow: 1px 1px 13px 1px rgba(8, 17, 59, 0.63);
 }
@@ -50,4 +51,6 @@ h2 {
 
 
 
-.container_form {}
+.container_form {
+    padding-bottom: 10%;
+}
